@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRIDAY 1.0.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 id="header" class="header_txt">Hello, I am Friday !</h1>
+    </header>
+
+    <div id="main" class="main">
+       <button id="start" class="btn"  onclick="listen_display()"><img src="img/7123011_google_mic_icon.svg" alt="mic" class="mic_logo"></button>
+    </div>
+    <div id="li_animate" class="listensing">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <br>
+        <br>
+        <h1 id="status" class="header_txt">Listensing...</h1>
+    </div>
+    <h1 id="info_said" class="result_txt">Recent said by you:</h1>
+    <h1 class="textarea result_txt" id="textarea">
+        
+    </h1>
+
+    <button id="stop_listen" class="btn_stop" onclick="reback_display()">Stop Listensing</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
