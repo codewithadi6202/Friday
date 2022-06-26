@@ -67,6 +67,9 @@ recognition.onresult = function takecommand(event){
     if(transcript.includes("Oh")){
         speak("What happened !");
     }
+    if(transcript.includes("Oh")){
+        speak("What happened !");
+    }
 
 }
 
